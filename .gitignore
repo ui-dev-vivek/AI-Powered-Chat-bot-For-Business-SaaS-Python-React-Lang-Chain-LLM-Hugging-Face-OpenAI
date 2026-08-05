@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*/__pycache__/*
+*__pycache__/
+__pycache__/*
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Pytest
+.pytest_cache/
+
+# Ruff
+.ruff_cache/
+
+# MyPy
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Alembic
+alembic/__pycache__/
+alembic/versions/__pycache__/
+
+# App
+app/**/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db

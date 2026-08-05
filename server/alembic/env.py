@@ -7,8 +7,10 @@ from app.config.database import DATABASE_URL
 from app.models import Base
 
 config = context.config
-config.set_main_option("sqlalchemy.url", str(DATABASE_URL))
-
+config.set_main_option(
+    "sqlalchemy.url",
+    DATABASE_URL.render_as_string(hide_password=False),
+)
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 

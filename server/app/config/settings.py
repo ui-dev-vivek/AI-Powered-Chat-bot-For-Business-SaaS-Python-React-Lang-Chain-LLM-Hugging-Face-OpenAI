@@ -9,10 +9,10 @@ class Settings(BaseSettings):
     
     # Database 
     db_host: str = "127.0.0.1"
-    db_username: str ='root'
-    db_password:str = ""
+    db_username: str ='vivek_db'
+    db_password:str = "vivek"
     db_name: str="bizbot" 
-    db_port: int =3600
+    db_port: int =3306
 
     model_config = SettingsConfigDict(
         env_file=".env",
