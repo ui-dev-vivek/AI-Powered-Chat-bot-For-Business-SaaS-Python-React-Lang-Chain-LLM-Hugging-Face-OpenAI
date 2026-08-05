@@ -1,38 +1,32 @@
-# Python
+# Python bytecode
 __pycache__/
-*/__pycache__/*
-*__pycache__/
-__pycache__/*
+**/__pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual Environment
+# Virtual environments
 .venv/
 venv/
 env/
 
-# Environment Variables
+# Environment variables
 .env
 .env.*
 
-# IDE
+# IDEs
 .vscode/
 .idea/
 
-# Pytest
+# Testing / tooling
 .pytest_cache/
-
-# Ruff
 .ruff_cache/
-
-# MyPy
 .mypy_cache/
 
 # Coverage
 .coverage
 htmlcov/
 
-# Build
+# Build artifacts
 build/
 dist/
 *.egg-info/
@@ -40,13 +34,13 @@ dist/
 # Logs
 *.log
 
-# Alembic
+# Alembic migrations cache
 alembic/__pycache__/
 alembic/versions/__pycache__/
 
-# App
+# Application caches
 app/**/__pycache__/
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
