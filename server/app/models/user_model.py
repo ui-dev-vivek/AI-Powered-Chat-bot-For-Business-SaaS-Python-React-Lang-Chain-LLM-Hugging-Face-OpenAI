@@ -77,3 +77,4 @@ class User(Base):
         server_default=func.now(),
         onupdate=func.now(),
     )
+    
