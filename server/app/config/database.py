@@ -8,7 +8,7 @@ from app.config.settings import settings
 DATABASE_URL = URL.create(
     drivername="mysql+pymysql",
     username=settings.db_username,
-    password=settings.db_password,
+    password=settings.db_password or None,
     host=settings.db_host,
     port=settings.db_port,
     database=settings.db_name,
