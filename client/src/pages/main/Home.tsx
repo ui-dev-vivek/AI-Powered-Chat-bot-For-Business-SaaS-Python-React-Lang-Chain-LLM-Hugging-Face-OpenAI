@@ -1,3 +1,7 @@
+import { useCount } from "@/contexts/CountContext";
+
 export function Home() {
-  return <div></div>;
+  const { count } = useCount();
+
+  return <div>{count}</div>;
 }

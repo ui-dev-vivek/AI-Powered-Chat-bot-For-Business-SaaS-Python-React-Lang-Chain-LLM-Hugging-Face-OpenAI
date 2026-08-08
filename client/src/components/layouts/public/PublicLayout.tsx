@@ -1,12 +1,13 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "./Navbar";
 
-const PublicLayout = () => {
+function PublicLayout() {
   return (
-    <div className="public-layout">
-      {" "}
-      <Outlet />{" "}
-    </div>
+    <>
+      <Navbar />
+      <Outlet />
+    </>
   );
-};
+}
 
 export default PublicLayout;
